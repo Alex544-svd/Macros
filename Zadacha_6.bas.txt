@@ -1,0 +1,26 @@
+
+ 
+ Sub AutoOpen()
+ Open "C:\Users\alexm\Desktop\1\list.txt" For Output As #1
+     
+ Print #1, "Время открытия документа" & Now; vbCrLf
+
+Close #1
+
+End Sub
+      
+
+Public Sub AutoClose()
+      
+ Open "C:\Users\alexm\Desktop\1\list.txt" For Output As #1
+     
+ Print #1, "Время зыкрытия документа" & Now; vbCrLf
+
+Close #1
+
+
+
+
+End Sub
+
+
